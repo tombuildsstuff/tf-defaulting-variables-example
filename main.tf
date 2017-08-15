@@ -5,7 +5,6 @@ module "example" {
 }
 
 module "example2" {
-  source              = "./example"
-  resource_group_name = ""
-  location            = "West Europe"
+  source   = "./example"
+  location = "West Europe"
 }
